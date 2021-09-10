@@ -15,3 +15,6 @@ const greetMe = function () {
   console.log("Hallo Ky");
 };
 greetMe();
+
+// it's first class
+logGreeting(greetMe);
