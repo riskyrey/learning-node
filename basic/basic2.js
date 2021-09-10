@@ -8,5 +8,10 @@ greet();
 function logGreeting(fn) {
   fn();
 }
-
 logGreeting(greet);
+
+// function expression
+const greetMe = function () {
+  console.log("Hallo Ky");
+};
+greetMe();
